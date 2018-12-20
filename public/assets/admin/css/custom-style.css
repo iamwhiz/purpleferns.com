@@ -1,0 +1,148 @@
+
+.card  {border: 1px solid #eee;}
+.card h4.card-title {background: #fafbfc none repeat scroll 0 0; border-bottom: 1px solid #eee; font-weight: normal; padding: 15px 30px; font-size: 22px; margin: 0px;}
+
+.card .card-body {padding: 0px;}
+.card .card-body  .card-body_inner {width:100%; float:left; padding:20px; background: #fff none repeat scroll 0 0;}
+.card  .card_footer {
+  background: #fafbfc none repeat scroll 0 0;
+  border-top: 1px solid #eee;
+  margin: 0;
+  padding: 15px 30px;
+  text-align: right;
+  float: left;
+  width: 100%;
+}
+
+.card  .form-group {width:100%;}
+.card fieldset {border:solid 1px #ddd; padding:10px; margin:0 0 20px;}
+.card fieldset legend { font-size: 18px;
+    padding: 0 10px;
+    width: auto;}
+
+.padding_right_0 {padding-right:0;}
+.padding_left_0 {padding-left:0;}
+
+.left_content {float:left;}
+.immi_sel_cat {float:right;}
+.immi_sel_cat  select {height:98vh; overflow:auto;}
+
+
+.immi_add_img .add_field_button {
+  background: #00a639 none repeat scroll 0 0;
+  border: 0.078125vw solid #00a639;
+  border-radius: 0.390625vw;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: auto;
+  padding: 6px 10px;
+  position: relative;
+  text-align: center;
+  transition: all 1s ease-in-out 0s;
+  width: auto;
+  z-index: 9;
+}
+
+.immi_add_img .add_field_button:hover { background: transparent none repeat scroll 0 0;
+    color: #00a639;}
+.remove_field {font-size: 14px; color: #333; border-bottom: 1px solid #333; text-decoration: none !important;}
+.remove_field:hover {color: rgb(0, 166, 57); border-bottom: 1px solid rgb(0, 166, 57);}
+
+.card .form-group label {font-size:15px; font-weight:500;}
+.card  .form-control {font-size:15px;}
+
+.card  .imm_image_list .imm_images_icon {font-size:14px;}
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper  .dataTables_info, .dataTables_wrapper .dataTables_paginate {padding:10px;font-size:13px;}
+.dataTables_wrapper .dataTables_length label, .dataTables_wrapper .dataTables_filter label {margin:0}
+.dataTables_wrapper .dataTables_length select, .dataTables_wrapper .dataTables_filter input {border:solid 1px #ddd;}
+.dataTables_wrapper  .table thead {background:#333; color:#fff;  font-weight: 500;}
+.dataTables_wrapper  .table thead th { font-weight: 500;}
+.dataTables_wrapper  .table .fa-pencil { color:#00CE68; font-size:16px;}
+.dataTables_wrapper  .table .fa-close { color:red; font-size:16px;}
+
+.dataTables_wrapper  .table  th, .dataTables_wrapper  .table  td {padding:10px 15px !important;} 
+.dataTables_wrapper  table.dataTable {width: 99.9% !important;}
+
+.dataTables_wrapper  .dataTables_info, .dataTables_wrapper .dataTables_paginate {font-size:13px;}
+.padding_0 {padding:0;}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  background: green none repeat scroll 0 0;
+  border: medium none;
+  color: #fff !important;
+  line-height: 20px;
+  padding: 4px 10px 1px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {  background: transparent !important;
+  border: medium none !important;
+  color: #000 !important;
+  line-height: 20px;
+  margin: 0;
+    padding: 0;}
+ .dataTables_wrapper .dataTables_paginate .paginate_button .page-link {padding: 0.5rem 0.75rem 0.3rem; margin:0; color:#000 !important;}
+ .dataTables_wrapper .dataTables_paginate .paginate_button.active .page-link {color:#fff !important;background:#000 !important; border-color:#000 !important;}
+  
+  .dataTables_wrapper .dataTables_paginate .paginate_button:hover {  background: #333 none repeat scroll 0 0; color: #fff !important;}
+  .dataTables_wrapper .dataTables_paginate .paginate_button  .page-link:focus {
+    box-shadow: none;}
+  
+  .navbar.default-layout .navbar-menu-wrapper {background: #69d198 none repeat scroll 0 0;}
+  
+  .sidebar .nav .nav-item .nav-link {color: #4a4a4a !important;  font-size: 14px !important;}
+  .sidebar .nav .nav-item .nav-link .menu-title {font-size:17px; color:#000; font-weight:500;}
+  
+  .navbar.default-layout .navbar-brand-wrapper .navbar-brand img {
+  height: auto;
+  width: 65%;
+}
+
+optgroup {background:#F2F8F9; font-weight:500; margin:0 0 10px;}
+optgroup option {background:#fff; font-weight:400;}
+
+.add-btn {
+    float: right;
+    margin-top: -45px;
+    margin-right: 20px;
+}
+
+.add-btn a {
+    color: #333333;
+}
+
+.sidebar .nav.collapse {display:none;}
+#imm_allproducts_wrapper #imm_allproducts_info { clear: unset;
+    float: left;
+    padding: 18px 10px 0;}
+	
+	
+		.invoice-title h5, .invoice-title .status-drop {
+    display: inline-block;
+}
+
+.table-approved > tbody > tr > .no-line {
+    border-top: none;
+}
+
+.table-approved > thead > tr > .no-line {
+    border-bottom: none;
+}
+
+.table-approved > tbody > tr > .thick-line {
+    border-top: 2px solid;
+}
+
+
+.dob_admin select.form-control {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.dob_admin select.dob_class {
+    margin: 0px;
+}
+

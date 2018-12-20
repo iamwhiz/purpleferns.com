@@ -1,0 +1,1 @@
+Your Password Is  => {{$data1['password']}}

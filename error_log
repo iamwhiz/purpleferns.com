@@ -1,0 +1,9 @@
+[14-Nov-2018 04:48:14 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home3/westhav7/public_html/purpleferns.com/storage/framework/views/fea9524d67c23630b0ccc57f1b84055664c52637.php on line 144
+[15-Nov-2018 07:43:47 UTC] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInitf0e3c4079889be2685ca700c076a015d' not found in /home3/westhav7/public_html/purpleferns.com/vendor/autoload.php:7
+Stack trace:
+#0 /home3/westhav7/public_html/purpleferns.com/bootstrap/autoload.php(17): require()
+#1 /home3/westhav7/public_html/purpleferns.com/public/index.php(22): require('/home3/westhav7...')
+#2 /home3/westhav7/public_html/purpleferns.com/index.php(21): require_once('/home3/westhav7...')
+#3 {main}
+  thrown in /home3/westhav7/public_html/purpleferns.com/vendor/autoload.php on line 7
+[19-Nov-2018 12:23:41 UTC] PHP Fatal error:  Trait 'App\Notifiable' not found in /home3/westhav7/public_html/purpleferns.com/app/Admin.php on line 10
